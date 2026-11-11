@@ -1,4 +1,4 @@
-# qyn-time — DSH 插件：时间管理
+# qyn-dsh-plugin —— 把内核封成 DSH 工具
 
 > 把 Python 确定性内核（[`AGENT/qyn.py`](qyn.py（独立仓库根）)）封装成 DSH 工具，
 > 让**自然语言对话可以安全地更改** `rules.json` / `data.json`。
