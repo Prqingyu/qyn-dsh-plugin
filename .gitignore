@@ -1,0 +1,19 @@
+# 运行时数据 / 凭据 / 状态（绝不入库）
+data/
+state/
+logs/
+*.log
+.env
+*.key
+credentials.json
+.secrets/
+.mnemon/
+.runtime/
+__pycache__/
+*.pyc
+node_modules/
+
+# 额外防御
+.env.*
+*.pem
+*.p12

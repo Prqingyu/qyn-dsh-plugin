@@ -1,0 +1,22 @@
+{
+  "name": "qyn-time",
+  "version": "0.1.0",
+    "type": "module",
+  "main": "lib/index.js",
+  "description": "信息中心 · 时间管理：把 Python 确定性内核（AGENT/qyn.py）封装成 DSH 工具，使自然语言对话可以安全地更改 rules.json / data.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/plugin.test.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.4"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  }
+}
